@@ -1,39 +1,30 @@
-<!--<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Weather Forecast</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-  
-  </head>
-
-
-<body>
-  <header>
-    <p>Weather Dashboard</p>
-  </header>
-
-  <main>
-  </main>
-
-</body>
-
--->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Report</title>
-  </head>
-  <body>
+</head>
+
+
+<body>
+    <header>
+        <p>Weather Dashboard</p>
+    </header>
+
+
+    <table class="table table-bordered">
+        <tbody id="data">
+        </tbody>
+    </table>
 
    
 
@@ -41,23 +32,24 @@
 
 
 
-    <body>
+    <section>
         <div class="card">
-          <h2>Search for City</h2>
-          <form>
-            <ul>
-         
-             
-              <li>
-                <label for="msg">Enter City</label>
-                <textarea id="msg" name="comments"></textarea>
-              </li>
-            </ul>
-            <button id="save">Search</button>
-          </form> 
-          <h3 class="message"></h3>   
-        
-        <script src="./assets/js/script.js"></script>
-      </body>
-  </body>
-  </html>
+            <h2>Search for City</h2>
+            <form>
+                <ul>
+                    <li>
+                        <label for="msg">Enter City</label>
+                        <textarea id="msg" name="comments"></textarea>
+                    </li>
+                </ul>
+                <button id="save">Search</button>
+            </form>
+            <h3 class="message"></h3>
+    </section>
+
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
